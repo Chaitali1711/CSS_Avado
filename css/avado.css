@@ -1,0 +1,582 @@
+*{
+	box-sizing: border-box;
+}
+/*Common classes*/
+body {
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+h1{
+	font-size:40px;
+	opacity:0.9;
+}
+
+p{
+	font-size:20px;
+	line-height:28px;
+}
+.container{
+	max-width:1300px;
+	width:100%;
+	margin:auto;
+	padding:5px;
+}
+button{
+	padding:5px;
+	height:60px;
+	width:190px;
+	border-radius:5px;
+}
+
+/********************************************************************navbar starts *********************************/
+.navbar {
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	align-items:center;
+}
+
+.accordion-button{
+	padding:0.5rem 0.25rem;
+}
+.accordion-item{
+	background-color: none;
+	border:none;
+}
+.accordion-button:focus{
+	border:none;
+	color:none;
+	border-color: none;
+	box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+	color:none;
+	background-color: none;
+	box-shadow: none;
+}
+.navbarPadding{
+	padding:10px;
+}
+
+.navbarlinks {
+	position:relative;
+	/*padding-top:5px;*/
+	display:flex;
+	justify-content:space-evenly;
+}
+
+.links{
+	padding:7px;
+}
+.links a{
+	padding:10px;
+	color:black;
+	opacity:0.7;
+	font-size:18px;
+}
+.btnWhatsnew{
+	color:black;
+	background-color:white;
+	font-weight:bold;
+	font-size:18px;
+}
+.btnWhatsnew:hover{
+	background-color:#f2f2f2;
+}
+
+.links a:hover{
+	background-color:#f2f2f2;
+	border-radius:5px;
+}
+/********************************************************************navbar ends*********************************/
+
+/********************************************************************section1 starts*********************************/
+.section1{
+	display:flex;
+	padding:20px 5px 60px 20px;
+	justify-content: space-between;
+}
+
+.section1 h1{
+	font-size:55px;
+	font-weight:bold;
+	margin:0px;	
+}
+
+.img_sec1Create img{
+	width:750px; 
+	height:600px; 
+}
+.UltimatePortfolio{
+	padding:10px;
+}
+
+.para_Trust{
+	letter-spacing:2px;
+	font-size:18px;
+	padding:10px 20px 10px 0px;
+}
+.btn_startbuilding{
+	font-size:18px;
+	background-color:#333333;
+	color:white;
+	border:none;
+	font-weight:600;
+}
+
+.btn_SB{
+padding:20px 20px 35px 0px;
+
+
+}
+.UltimatePortfolio button:hover{
+	background-color:black;
+}
+
+.tbl_trust{
+	padding-top:7px;
+	text-align:left;
+	font-size:22px;
+	}
+
+table h2{margin:5px 0px;}
+table td{font-size:17px;}
+
+/********************************************************************section1 ends*********************************/
+
+/********************************************************************section2 starts*********************************/
+.section2{
+	display:flex;
+	justify-content:space-between;
+	height:610px;
+	padding:35px;	
+} 
+
+.secYellogreenBlueDiv{
+		padding:30px;
+		width:380px;
+		border-radius:10px;
+		align-items:center;
+}
+.section2 a{
+	color:white;
+	padding:9px
+}
+
+.section2 p{
+	text-align:center;
+	font-size:15px;
+	letter-spacing:2px;
+	font-weight:600;
+	color:rgba(0,0,0,0.8);
+	
+}
+
+.section2 h2{
+	text-align:center;
+	height:45px;
+	font-size:32px;
+	padding-bottom:25px;
+	margin-top:0px;
+	color:rgba(0,0,0,0.8);
+}
+
+.section2 img{
+	max-width:210px;
+	height:210px;
+	width:210px;
+	
+}
+
+.img_YGB{
+	padding:20px;
+	text-align: center;
+}
+
+.btn_align a{
+		padding:8px;
+	}
+	
+	
+	.S2Buttons{
+		font-weight:600;
+		font-size:15px;
+	}
+	
+	.s2link1{
+		padding:5px;
+		border-radius:5px;
+		text-align:center;
+	}
+	
+
+	.btn_align {
+		text-align:center; 
+		padding:11px; 
+		display:flex;
+		justify-content: center;
+		}
+
+	.btn-common{
+		padding:5px;
+		text-align: center;
+	}
+			
+	.s2d1{
+		background-color:#ffe979;
+	}		
+	.yellowDiv{
+		background-color:#ffd633;
+	}		
+	
+	.s2d2{
+		background-color:#b7f898;	
+		}
+	.greenDiv{
+			background-color:#6bc63e;
+		}
+	
+	.s2d3{
+		background-color:#80ccff;
+		}
+	
+	.blueDiv{
+			background-color:#33cccc;
+		}
+
+/********************************************************************section2 ends********************/
+
+/********************************************************************section 3 starts ******************/
+
+.s3d1{         
+	/*margin:auto;*/
+	text-align:center;
+	padding:65px 40px 60px 40px;
+	color:rgba(0,0,0,0.7);
+}
+	.s3d1 h1{		
+		font-size:49px;	
+		color:rgba(0,0,0,0.9);
+		font-weight:600;
+		margin-bottom:0px;
+		margin-top:15px;
+		}
+		
+	.s3d2d1 a{
+		color:rgba(0,0,0,0.8);
+		
+	}
+	
+	.s3d1 p{
+		font-size:20px;
+		color:rgba(0,0,0,0.8);
+	}
+	
+	.s3d1 i{
+		font-size:55px;
+		color:#65bd7d;
+		opacity:0.8;
+	}
+
+.s3d2{		/***************COMMON CLASS FOR SEC3 AND SEC4*************/
+	display:flex;
+	justify-content:space-evenly;	
+}
+
+	.s3d2d1{
+		max-width:500px;
+		
+	}
+	
+	.s3d2d1 ul{
+		list-style-type:none;
+		padding:0px 15px 0px 0px;
+		
+	}
+	
+	.s3d2d1 li{
+		padding:5px 22px;
+		border-radius:10px;
+		/*margin:10px;*/
+	}
+	
+	.s3d2d1 li:hover{
+		background-color:#f2f2f2;
+		
+	}
+
+
+	
+	
+/********************************************************************section 3 Ends ******************/
+
+/********************************************************************section 4 Starts ******************/
+
+.s4d {
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+	padding-left:25px;
+	padding-right:25px;
+	align-items:center;
+}
+
+.s4d h4{
+	font-size:25px;
+	color:rgba(0,0,0,0.9);
+	margin-bottom:0px;
+}
+
+.s4d p{
+	font-size:16px;
+	/*line-height:28px;*/
+	color:rgba(0,0,0,0.8);
+}
+
+.s4d img{
+	max-height:270px;
+	max-width:370px;
+}
+	
+.discover_btn{
+	font-size:18px;
+	font-weight:600;
+	color:white;
+	background-color:#00cc44;
+	opacity:0.7;
+	border-radius:8px;
+	padding:20px 34px;
+}
+.btn_discoverme{
+	text-align:center;
+	padding:50px 40px 110px;
+}
+.discover_btn:hover{
+	background-color:black;
+}
+/********************************************************************section 4 Ends ******************/
+/********************************************************************section 5 Statts ******************/
+
+.section5{
+	background-image:url("../images/shape-bg-9.svg");
+	top:0;
+	background-repeat:no-repeat;
+	border-top:2px solid #e6e6e6;
+}
+
+.sec5fourDivs{
+	display:flex;
+	text-align:center;
+	padding:15px 20px 80px 20px;
+	color:rgba(0,0,0,0.7);
+	justify-content:space-between;
+/*	align-items:center;*/
+}
+
+.FourImages{
+	max-width:50px;
+	align-items:center;
+}
+
+.sec5fourDivs h4{
+	font-size:25px;
+}
+.icon-avada{
+	width:75px;
+	height:75px;
+}
+
+
+.sec5fourDivs p{
+	font-size:18px;
+}
+
+.section6{
+	display:flex;
+	padding:10px;
+	}
+.testimonail img{
+	height:100%;
+}
+
+.testimonail{
+	margin-bottom:-4px;
+}
+.squarebirdParagraph{
+	background-color:#ffdb4d;
+	opacity:0.8;
+	color:black;
+	font-weight:400;
+	padding:30px 50px;
+	
+}
+
+.sec6paragraph{
+	font-size:27px;
+	max-width:900px;
+	text-align:left;
+	line-height:37px;
+	letter-spacing:2px;	
+}
+
+.squarebirdlogo {
+	text-align:left;
+	font-size:20px;	
+}
+
+.squarebird{
+	display:flex;
+	align-items:center;
+}
+
+	.logoSqbird{
+		text-align:center;
+		padding-right:20px;
+	}
+	
+	.labelSqbird p{
+		font-size:20px;
+		font-weight:500;
+		
+	}
+.sec5div2 a{
+	padding-top:10px;
+}
+
+/********************************************************************section 5 Ends ******************/
+/********************************************************************section 6 Starts ******************/
+
+.FAQ{
+	text-align:center;
+	padding:80px 65px 55px 65px;
+}
+.FAQ table{
+	width:100%;
+	/*margin:auto;*/
+	padding-top:40px;
+}
+
+.FAQ a{
+	color:rgba(0,0,0,0.8);
+}
+.FAQ td{
+	border-bottom:solid 1px lightgray;
+	padding:25px 25px 25px 0px;	
+	font-size:25px;
+	font-weight:500;
+	text-align:left;
+}
+
+.FAQ i{
+	font-size:10px;
+	font-weight:700;
+}
+.FAQ h1{
+	font-size:48px;
+	margin-bottom:0px;
+	
+}
+/********************************************************************section 6 Ends ******************/
+/********************************************************************footer Starts ******************/
+.build{
+	display:flex;
+}
+.BuildsuccessfullMainDiv{
+	padding:60px;
+	margin:10px;
+	position:relative;
+	background-color:#b7f898;
+	border-radius:10px;
+	/*height:400px;*/
+}
+
+.BuildSuccessfull{
+	text-align:left;
+	/*padding-right:30px;*/
+	padding:20px;
+	
+}
+.BuildSuccessfull h3{
+	font-size:50px;
+	margin:0px;
+}
+
+.BuildSuccessfull p{
+	letter-spacing:1px;
+	margin-top:0px;
+	justify-content: space-between;
+}
+
+.btn_buyAvada{
+	height:60px;
+	width:250px;
+	padding:6px 10px;
+	border-radius:5px;
+}
+
+.btn_buyAvada:hover{
+	background-color:black;
+}
+.padding{
+	padding:15px;
+}
+.createImage{
+	/*text-align:right;*/
+	height:auto;
+	padding:25px;
+}
+ 
+.footerSection{
+	background-color:black;
+	text-align:center;
+	color:white;
+	padding:130px 50px 30px 50px;
+	margin-top:-60px;
+}
+.footerSection .ParaLink{
+	font-size:17px;
+	color:white;
+	padding-top:30px;
+}
+
+.footerSection .Paracopyright{
+	font-size:13px;
+	color:white;
+}
+
+.footerSection a{
+	color:#65bd7d;
+	text-decoration:underline;
+}
+
+.footericon i{
+	color:white;
+	font-size:20px;
+	padding:15px;
+	margin:2px;
+	border-radius:40px;
+	background-color:#1a1a1a;
+}
+
+.hide{
+	display:none;
+	border-radius:15px;
+}
+
+.footericon i:hover {
+	background-color:#65bd7d;
+	color:white;
+	font-size:28px;
+}
+
+.fb{
+	height:50px;
+	width:50px;
+}
+
+/********************************************************************Footer Ends ******************/

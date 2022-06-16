@@ -1,0 +1,236 @@
+@media screen and (max-width: 390px) {
+  
+   .navbar{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.links i{
+  display: none;
+}
+.navbarlinks a {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Section1*/
+  .section1 {
+flex-wrap: wrap;
+  }
+
+  .UltimatePortfolio br{
+  display: none;
+  }
+
+  .UltimatePortfolio h1{
+  font-size: 40px;
+  text-align: center;
+  }
+
+  .UltimatePortfolio p{
+    text-align: center;
+    letter-spacing: 0ex;
+  }
+
+  .btn_SB {
+    padding:10px;
+    text-align:center ;
+  }
+
+  .tbl_trust{
+    padding-top:5px;
+    padding-bottom: 7px;
+    text-align: center;
+  }
+
+  .img_sec1Create{
+    display:flex;
+    width:100%;
+    justify-content: center;
+  }
+  .img_sec1Create img{
+    width:340px;
+    height:250px;
+    justify-items: center;
+  }
+  
+ /*Section1 ends*/
+  /*section2 starts*/
+
+  .section2{
+    flex-wrap: wrap;
+    height:1800px;
+    justify-content: space-between;
+    padding:15px;
+  }
+
+  .secYellogreenBlueDiv {
+    margin-bottom:10px
+  }
+
+  .S2Buttons{
+    align-items: center;
+  }
+
+  .btn_VB{
+  padding:8px 8px 8px 0px
+  }
+  /*section3*/
+  .s3d2{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+  .s3d1 h1{
+    font-size: 34px;
+    margin-top: 0px;;
+  }
+
+  .s3d1{
+    padding-top:0px;
+    padding-bottom: 0px;
+    width:100%;
+    text-align: center;
+    
+  }
+  .s3d2d2 img{
+    height:295px;
+    width:372px;
+  }
+/*section 3 ends*/
+
+/*seciton4 starts*/
+.s4d{
+  flex-wrap: wrap;
+  padding-left:18px;
+  padding-right:18px;
+}
+
+.s4d img{
+  height:280px;
+  width:100%;
+}
+.s4d p{
+  font-size:15px; ;
+}
+
+.s4d h4{
+  font-size:20px ;
+}
+
+.btn_discoverme {
+  padding-bottom:80px;
+}
+
+/*section4 ends*/
+
+/*section5 starts*/
+.section5{
+  padding-top:52px;
+}
+
+.sec5fourDivs{
+  flex-wrap: wrap;
+  padding-bottom:35px ;
+}
+
+.sec5fourDivs h4{
+  font-size: 20px;
+  margin:10px 0px 5px 0px;
+}
+
+.sec5fourDivs p{
+  font-size: 15px;padding-bottom: 10px;;
+}
+
+.icon-avada{
+  height:100px;
+  width:100px;
+}
+
+.img_builtin{
+  height:100px;
+  width:120px;
+}
+
+.section6{
+  flex-wrap: wrap;
+  
+}
+
+.testimonail img{
+  height:280px;
+  width:100%;
+  
+}
+
+.squarebirdParagraph{
+  padding:37px;
+}
+.sec6paragraph{
+  padding: 10px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.main_sqrbrd{
+  padding:20px;
+}
+
+/*section6 ends*/
+
+/*section7 FAQ starts*/
+.FAQ{
+  padding:27px;
+}
+.FAQ h1{
+  font-size:38px;
+  }
+
+.FAQ td{
+  font-size: 23px;
+  font-weight: 500px;
+}
+
+/*section7 ends*/
+
+/*Footer starts*/
+.build{
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.BuildsuccessfullMainDiv{
+  
+  padding:22px;
+}
+.BuildSuccessfull h3{
+  font-size:40px;
+  text-align: center;
+}
+
+.BuildSuccessfull p{
+  text-align: justify;
+}
+
+.createImage img{
+  height:200px;
+  width:250px;
+ 
+}
+
+.footerSection{
+  padding:85px 20px 20px 20px;
+}
+
+.fb{
+  height:50px;
+  width: 50px;;
+}
+
+.footerSection .Paracopyright{
+  font-size: 12px;;
+}
+
+.footerSection .ParaLink{
+  font-size: 16px;
+}
+
+}
